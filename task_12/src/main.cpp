@@ -5,7 +5,7 @@ int main() {
     if ((std::cin >> S >> N)) {
 
     std::vector<int> coins(N);
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; i++) {
         std::cin >> coins[i];
     }
 
