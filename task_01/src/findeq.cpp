@@ -2,7 +2,7 @@
 
 std::pair<int, int> FindEq(int goal, int length, const std::vector<int>& cont) {
   int left{0};
-  int right =  length - 1;
+  int right = length - 1;
   while (left < right) {
     int target_sum = cont[left] + cont[right];
 
