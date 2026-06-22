@@ -9,7 +9,7 @@ int main() {
     std::cin >> cont[i];
   }
 
-  auto result = search(cont);
+  auto result = Search(cont);
   std::cout << result << std::endl;
   return 0;
 }
