@@ -4,7 +4,7 @@ int main() {
     if (std::cin >> N){
 
         std::vector<Lesson> lessons(N);
-        for (int i = 0; i < N; ++i) {
+        for (int i = 0; i < N; i++) {
             std::cin >> lessons[i].start >> lessons[i].end;
         }
         std::vector<Lesson> result = bestSelect(lessons);
