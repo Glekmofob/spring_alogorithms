@@ -7,21 +7,21 @@
 TEST(Merge_sort, Simple) {
   std::vector<int> v = {2, 10, 4, 5, 3, 1};
   std::vector<int> ans = {1, 2, 3, 4, 5, 10};
- MergeSort(v, 0, v.size() - 1);
+  MergeSort(v, 0, v.size() - 1);
   ASSERT_EQ(v, ans);
 }
 
 TEST(Merge_sort, Negative) {
   std::vector<int> v = {-2, 10, -4, 5, 3, 1};
   std::vector<int> ans = {-4, -2, 1, 3, 5, 10};
- MergeSort(v, 0, v.size() - 1);
+  MergeSort(v, 0, v.size() - 1);
   ASSERT_EQ(v, ans);
 }
 
 TEST(Merge_sort, Same_numbers) {
   std::vector<int> v = {-2, 10, -4, 5, 3, 1, 0, 1, 1};
   std::vector<int> ans = {-4, -2, 0, 1, 1, 1, 3, 5, 10};
- MergeSort(v, 0, v.size() - 1);
+  MergeSort(v, 0, v.size() - 1);
   ASSERT_EQ(v, ans);
 }
 
@@ -34,7 +34,7 @@ TEST(Merge_sort, Hard_as_fuck) {
       -72, 8,    93, -28, 55,  14,  -6,  21,  0,   36,  -49, 13,  80,  -9, 47,
       25,  -21,  62, 7,   -14, 39,  -53, 16,  85,  -31, 4,   70,  -25, 30, 52,
       -66, 24,   11, -18, 48,  9,   -37, 58,  -4,  20};
- MergeSort(v, 0, v.size() - 1);
+  MergeSort(v, 0, v.size() - 1);
   std::vector<int> ans = {
       -100, -90, -82, -72, -66, -60, -56, -53, -49, -45, -45, -40, -37,
       -34,  -31, -28, -25, -23, -21, -19, -18, -15, -14, -12, -11, -9,
