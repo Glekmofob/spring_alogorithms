@@ -1,6 +1,7 @@
 #include "solution.hpp"
 #include <algorithm>
 
+
 int minCoins(int S, const std::vector<int> &coins){
     if (S<0) return -1;
     if (S ==0) return 0;

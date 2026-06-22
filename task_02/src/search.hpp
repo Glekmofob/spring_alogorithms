@@ -4,4 +4,4 @@
 
 
 
-int search(std::vector<int> cont);
+int search(std::vector<int>& cont);

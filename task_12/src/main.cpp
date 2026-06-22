@@ -1,4 +1,6 @@
 #include "solution.hpp"
+#include <iostream>
+
 
 int main() { 
     int S, N;
