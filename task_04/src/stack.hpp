@@ -2,18 +2,15 @@
 
 #include <vector>
 
-
 struct Node {
-    int data;
-    Node* next;
+  int data;
+  Node* next;
 };
 
-
 class Stack {
-  
  public:
+  ~Stack();
   Stack() : top(nullptr) {}
-
 
   bool isEmpty();
 
@@ -26,7 +23,8 @@ class Stack {
 
 class MinStack {
  public:
-  MinStack(): top(nullptr), mintop(nullptr) {}
+  ~MinStack();
+  MinStack() : top(nullptr), mintop(nullptr) {}
   void Push(int value);
   int Pop();
   int GetMin();

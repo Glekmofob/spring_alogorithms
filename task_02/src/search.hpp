@@ -2,6 +2,4 @@
 
 #include <vector>
 
-
-
-int search(std::vector<int>& cont);
+int Search(std::vector<int>& cont);
