@@ -4,4 +4,4 @@
 #include <string>
 #include <vector>
 
-int findSubstring(const std::string& s, const std::string& p);
+int FindSubstring(const std::string& s, const std::string& p);

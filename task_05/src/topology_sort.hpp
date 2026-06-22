@@ -1,6 +1,6 @@
 #pragma once
 
-#include <vector>
 #include <stack>
+#include <vector>
 
-std::vector<int> daysToTemp(const std::vector<int>& temps);
+std::vector<int> DaysToTemp(const std::vector<int>& temps);

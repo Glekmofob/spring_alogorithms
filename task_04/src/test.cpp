@@ -1,7 +1,6 @@
 
 #include <gtest/gtest.h>
 
-
 #include "stack.hpp"
 
 TEST(StackTest, Simple) {

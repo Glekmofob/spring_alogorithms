@@ -2,9 +2,9 @@
 
 #include <vector>
 
-struct Lesson{
-    double start;
-    double end;
+struct Lesson {
+  double start;
+  double end;
 };
 
-std::vector<Lesson> bestSelect(const std::vector<Lesson>& lessons);
+std::vector<Lesson> BestSelect(std::vector<Lesson> lessons);

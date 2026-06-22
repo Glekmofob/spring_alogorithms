@@ -1,7 +1,9 @@
 #pragma once
 
-#include <vector>
-#include <string>
 #include <iostream>
+#include <string>
+#include <vector>
 
-std::vector<std::string> solve(int n, int m, const std::vector<std::vector<int>>& table, const std::vector<std::pair<int, int>>& queries);
+std::vector<std::string> Solve(int n, int m,
+                               const std::vector<std::vector<int>>& table,
+                               const std::vector<std::pair<int, int>>& queries);
