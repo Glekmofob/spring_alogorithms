@@ -1,6 +1,6 @@
 #include "stack.hpp"
+#include <stdexcept>
 #include "iostream"
-#include <algorithm>
 
 void Stack::Push(int value) { 
   Node* newNode = new Node();
@@ -12,8 +12,7 @@ void Stack::Push(int value) {
 
 int Stack::Pop() {
   if (isEmpty()){
-    std::cout << "Stack is empty" << std::endl;
-    return -1;
+    throw std::runtime_error("Stack is empty");
   }
   Node* temp = top;
   int poppedValue = temp -> data;

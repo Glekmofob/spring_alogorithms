@@ -2,7 +2,7 @@
 
 
 
-std::vector<int> daysToTemp(std::vector<int> &temps){
+std::vector<int> daysToTemp(const std::vector<int> &temps){
     int n = temps.size();
     std::vector<int> result(n, 0);
     std::stack<int> s;

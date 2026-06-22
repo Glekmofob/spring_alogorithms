@@ -6,7 +6,7 @@ bool compare(const Lesson& a, const Lesson& b){
     return a.end < b.end;
 }
 
-std::vector<Lesson> bestSelect(std::vector<Lesson> &lessons){
+std::vector<Lesson> bestSelect(std::vector<Lesson> lessons){
     std::sort(lessons.begin(), lessons.end(),compare);
 
     std::vector<Lesson> selected;

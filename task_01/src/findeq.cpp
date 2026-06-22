@@ -1,6 +1,6 @@
 #include <findeq.hpp>
 
-pair<int , int> findeq(int goal,int length,vector<int> cont){
+std::pair<int , int> findeq(int goal,int length,std::vector<int> cont){
     int left{0};
     int right = cont.size() - 1;
     while (left < right){

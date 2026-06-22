@@ -3,4 +3,4 @@
 #include <vector>
 #include <stack>
 
-std::vector<int> daysToTemp(std::vector<int>& temps);
+std::vector<int> daysToTemp(const std::vector<int>& temps);

@@ -1,4 +1,6 @@
 #include "solution.hpp"
+#include <iostream>
+
 int main() { 
     int N;
     if (std::cin >> N){
